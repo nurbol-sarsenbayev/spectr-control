@@ -130,8 +130,8 @@
 				width: auto !important;
 				margin-bottom: 10px;
 
-				br {
-					display: none;
+				span {
+					display: inline;
 				}
 			}
 
@@ -279,6 +279,10 @@
 
 		&-about {
 			padding: 0;
+		}
+
+		&-calculator {
+			padding-top: 10px;
 		}
 
 		&-exclude {
