@@ -334,23 +334,30 @@ body {
 
 			&:nth-child(1) {
 				margin-top: -7%;
-				background-image: url('../img/desire-1.png')
+				background-image: url('../img/desire-1.png');
 			}
 
 			&:nth-child(2) {
-				background-image: url('../img/desire-2.png')
+				background-image: url('../img/desire-2.png');
+				.section-content {
+					margin-top: 80px;
+
+					.desire {
+						width: 300px;
+					}
+				}
 			}
 			&:nth-child(3) {
-				background-image: url('../img/desire-3.png')
+				background-image: url('../img/desire-3.png');
 			}
 			&:nth-child(4) {
-				background-image: url('../img/desire-4.png')
+				background-image: url('../img/desire-4.png');
 			}
 			&:nth-child(5) {
-				background-image: url('../img/desire-5.png')
+				background-image: url('../img/desire-5.png');
 			}
 			&:nth-child(6) {
-				background-image: url('../img/desire-6.png')
+				background-image: url('../img/desire-6.png');
 			}
 
 			&:nth-child(odd) {
@@ -553,7 +560,7 @@ body {
 			text-align: left;
 		}
 
-		.checkbox {
+		.checkbox, .radio {
 			margin-bottom: 20px;
 		}
 

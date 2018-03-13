@@ -240,6 +240,13 @@
 					}
 					&:nth-child(2) {
 						background: #e7e7e7;
+						.section-content {
+							margin-top: 0px;
+		
+							.desire {
+								width: 280px;
+							}
+						}
 					}
 					&:nth-child(3) {
 						background: #d9d8d0;
@@ -433,6 +440,8 @@
 		&-curved {
 			background-size: cover;
 			padding-top: 54.1%;
+			// background-size: 100% 100%;
+			// height: 779px;
 		}	
 	}
 
@@ -442,7 +451,7 @@
 			padding-top: 52.2222%;
 
 			.camera {
-				width: auto;
+				width: 650px;
 			}
 
 			&-tag {
